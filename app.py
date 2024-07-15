@@ -1,3 +1,4 @@
+
 import streamlit as st
 
 # Streamlit page configuration
@@ -16,7 +17,7 @@ st.markdown("""
 <strong>Mina Samy:</strong> m.s.milad@student.aast.edu<br>
 <strong>Malak Khaled:</strong> khaledmalak001@student.aast.edu<br>
 <strong>Mohamed Abdalla:</strong> m.a.abdelrahman6@student.aast.edu<br>
-<strong>Youstina Aziz:</strong> yostinaaziz@student.aast.edu<br>
+<strong>Yostina Aziz:</strong> yostina.a.aziz@student.aast.edu<br>
 </p>
 """, unsafe_allow_html=True)
 
@@ -79,6 +80,49 @@ With advanced image and face recognition capabilities, ROSE can identify objects
 st.image("face.png",
          caption="Image and Face Recognition Feature", use_column_width=True)
 
+# GPT-4 Turbo with Vision
+st.markdown("<h3 style='color: #FF69B4;'>🔍 GPT-4 Turbo with Vision</h3>",
+            unsafe_allow_html=True)
+st.write("""
+Combining advanced language processing with powerful visual recognition, GPT-4 Turbo with Vision interprets and analyzes both text and images, providing comprehensive insights and solutions across various applications.
+""")
+st.image("GPT with vision.png",
+         caption="GPT4-Turbo with vision Feature", use_column_width=True)
+
+
+# Exam Evaluation using GPT-4 Turbo with Vision
+st.markdown("<h3 style='color: #B22222;'>📝 Exam Evaluation</h3>",
+            unsafe_allow_html=True)
+st.write("""
+Designed to revolutionize educational support, this tool analyzes exam images, extracts and understands text, separates questions from answers, and provides accurate evaluations and scores.
+""")
+st.image("eval.png",
+         caption="Exam Evaluation Feature", use_column_width=True)
+
+# Question Extraction and Answering from PDF
+st.markdown("<h3 style='color: #8A2BE2;'>❓ Question Extraction from PDF</h3>",
+            unsafe_allow_html=True)
+st.write("""
+This tool allows ROSE to analyze the content of a given PDF, extract questions, and provide accurate answers based on the context, simplifying information retrieval and understanding.
+""")
+st.image("qa_with_PDF.png",
+         caption="Question Extraction and Answering from PDF Feature", use_column_width=True)
+# Video to Text
+st.markdown("<h3 style='color: #FF7F50;'>🎥 Video to Text</h3>",
+            unsafe_allow_html=True)
+st.write("""
+Transcribe video content in real-time. Engage in dynamic chats and discussions directly within the transcribed content, fostering a more interactive and inclusive communication experience.
+""")
+st.image("vidpng.png",
+         caption="Video to Text Feature", use_column_width=True)
+# Braille to English
+st.markdown("<h3 style='color: #20B2AA;'>♿ Braille to English</h3>",
+            unsafe_allow_html=True)
+st.write("""
+Convert Braille text into English, providing a seamless and inclusive experience for visually impaired individuals, promoting equal access to information.
+""")
+st.image("Braille.png",
+         caption="Braille Feautre", use_column_width=True)
 # Links Section
 st.markdown("<h2 style='text-align: center; color: #FF4B4B;'>🔗 Learn More About ROSE 🔗</h2>",
             unsafe_allow_html=True)
